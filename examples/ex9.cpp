@@ -70,13 +70,14 @@ private:
    GMRESSolver linear_solver;
    BlockILU prec;
    double dt;
+
 public:
    DG_Solver(SparseMatrix &M_, SparseMatrix &K_, const FiniteElementSpace &fes)
-      : M(M_),
-        K(K_),
-        prec(fes.GetFE(0)->GetDof(),
-             BlockILU::Reordering::MINIMUM_DISCARDED_FILL),
-        dt(-1.0)
+       : M(M_),
+         K(K_),
+         prec(fes.GetFE(0)->GetDof(),
+              BlockILU::Reordering::MINIMUM_DISCARDED_FILL),
+         dt(-1.0)
    {
       linear_solver.iterative_mode = false;
       linear_solver.SetRelTol(1e-9);
@@ -137,7 +138,6 @@ public:
    virtual ~FE_Evolution();
 };
 
-
 int main(int argc, char *argv[])
 {
    // 1. Parse command-line options.
@@ -154,7 +154,7 @@ int main(int argc, char *argv[])
    double dt = 0.01;
    bool visualization = true;
    bool visit = false;
-   bool paraview = false;
+   bool paraview = true;
    bool binary = false;
    int vis_steps = 5;
 
@@ -217,31 +217,53 @@ int main(int argc, char *argv[])
    // 2. Read the mesh from the given mesh file. We can handle geometrically
    //    periodic meshes in this code.
    Mesh mesh(mesh_file, 1, 1);
-   int dim = mesh.Dimension();
+   int dim = mesh.Dimension();//对于类内的成员都是使用函数获得，便于以后修改
 
    // 3. Define the ODE solver used for time integration. Several explicit
    //    Runge-Kutta methods are available.
    ODESolver *ode_solver = NULL;
    switch (ode_solver_type)
    {
-      // Explicit methods
-      case 1: ode_solver = new ForwardEulerSolver; break;
-      case 2: ode_solver = new RK2Solver(1.0); break;
-      case 3: ode_solver = new RK3SSPSolver; break;
-      case 4: ode_solver = new RK4Solver; break;
-      case 6: ode_solver = new RK6Solver; break;
-      // Implicit (L-stable) methods
-      case 11: ode_solver = new BackwardEulerSolver; break;
-      case 12: ode_solver = new SDIRK23Solver(2); break;
-      case 13: ode_solver = new SDIRK33Solver; break;
-      // Implicit A-stable methods (not L-stable)
-      case 22: ode_solver = new ImplicitMidpointSolver; break;
-      case 23: ode_solver = new SDIRK23Solver; break;
-      case 24: ode_solver = new SDIRK34Solver; break;
+   // Explicit methods
+   case 1:
+      ode_solver = new ForwardEulerSolver;
+      break;
+   case 2:
+      ode_solver = new RK2Solver(1.0);
+      break;
+   case 3:
+      ode_solver = new RK3SSPSolver;
+      break;
+   case 4:
+      ode_solver = new RK4Solver;
+      break;
+   case 6:
+      ode_solver = new RK6Solver;
+      break;
+   // Implicit (L-stable) methods
+   case 11:
+      ode_solver = new BackwardEulerSolver;
+      break;
+   case 12:
+      ode_solver = new SDIRK23Solver(2);
+      break;
+   case 13:
+      ode_solver = new SDIRK33Solver;
+      break;
+   // Implicit A-stable methods (not L-stable)
+   case 22:
+      ode_solver = new ImplicitMidpointSolver;
+      break;
+   case 23:
+      ode_solver = new SDIRK23Solver;
+      break;
+   case 24:
+      ode_solver = new SDIRK34Solver;
+      break;
 
-      default:
-         cout << "Unknown ODE solver type: " << ode_solver_type << '\n';
-         return 3;
+   default:
+      cout << "Unknown ODE solver type: " << ode_solver_type << '\n';
+      return 3;
    }
 
    // 4. Refine the mesh to increase the resolution. In this example we do
@@ -292,13 +314,13 @@ int main(int argc, char *argv[])
    m.AddDomainIntegrator(new MassIntegrator);
    k.AddDomainIntegrator(new ConvectionIntegrator(velocity, -1.0));
    k.AddInteriorFaceIntegrator(
-      new TransposeIntegrator(new DGTraceIntegrator(velocity, 1.0, -0.5)));
+       new TransposeIntegrator(new DGTraceIntegrator(velocity, 1.0, -0.5)));
    k.AddBdrFaceIntegrator(
-      new TransposeIntegrator(new DGTraceIntegrator(velocity, 1.0, -0.5)));
+       new TransposeIntegrator(new DGTraceIntegrator(velocity, 1.0, -0.5)));
 
    LinearForm b(&fes);
    b.AddBdrFaceIntegrator(
-      new BoundaryFlowIntegrator(inflow, velocity, -1.0, -0.5));
+       new BoundaryFlowIntegrator(inflow, velocity, -1.0, -0.5));
 
    m.Assemble();
    int skip_zeros = 0;
@@ -364,7 +386,7 @@ int main(int argc, char *argv[])
    if (visualization)
    {
       char vishost[] = "localhost";
-      int  visport   = 19916;
+      int visport = 19916;
       sout.open(vishost, visport);
       if (!sout)
       {
@@ -376,7 +398,8 @@ int main(int argc, char *argv[])
       else
       {
          sout.precision(precision);
-         sout << "solution\n" << mesh << u;
+         sout << "solution\n"
+              << mesh << u;
          sout << "pause\n";
          sout << flush;
          cout << "GLVis visualization paused."
@@ -394,13 +417,13 @@ int main(int argc, char *argv[])
    ode_solver->Init(adv);
 
    bool done = false;
-   for (int ti = 0; !done; )
+   for (int ti = 0; !done;)
    {
       double dt_real = min(dt, t_final - t);
       ode_solver->Step(u, t, dt_real);
       ti++;
 
-      done = (t >= t_final - 1e-8*dt);
+      done = (t >= t_final - 1e-8 * dt);
 
       if (done || ti % vis_steps == 0)
       {
@@ -408,7 +431,8 @@ int main(int argc, char *argv[])
 
          if (visualization)
          {
-            sout << "solution\n" << mesh << u << flush;
+            sout << "solution\n"
+                 << mesh << u << flush;
          }
 
          if (visit)
@@ -443,10 +467,9 @@ int main(int argc, char *argv[])
    return 0;
 }
 
-
 // Implementation of class FE_Evolution
 FE_Evolution::FE_Evolution(BilinearForm &_M, BilinearForm &_K, const Vector &_b)
-   : TimeDependentOperator(_M.Height()), M(_M), K(_K), b(_b), z(_M.Height())
+    : TimeDependentOperator(_M.Height()), M(_M), K(_K), b(_b), z(_M.Height())
 {
    Array<int> ess_tdof_list;
    if (M.GetAssemblyLevel() == AssemblyLevel::LEGACYFULL)
@@ -508,45 +531,71 @@ void velocity_function(const Vector &x, Vector &v)
 
    switch (problem)
    {
-      case 0:
+   case 0:
+   {
+      // Translations in 1D, 2D, and 3D
+      switch (dim)
       {
-         // Translations in 1D, 2D, and 3D
-         switch (dim)
-         {
-            case 1: v(0) = 1.0; break;
-            case 2: v(0) = sqrt(2./3.); v(1) = sqrt(1./3.); break;
-            case 3: v(0) = sqrt(3./6.); v(1) = sqrt(2./6.); v(2) = sqrt(1./6.);
-               break;
-         }
-         break;
-      }
       case 1:
+         v(0) = 1.0;
+         break;
       case 2:
-      {
-         // Clockwise rotation in 2D around the origin
-         const double w = M_PI/2;
-         switch (dim)
-         {
-            case 1: v(0) = 1.0; break;
-            case 2: v(0) = w*X(1); v(1) = -w*X(0); break;
-            case 3: v(0) = w*X(1); v(1) = -w*X(0); v(2) = 0.0; break;
-         }
+         v(0) = sqrt(2. / 3.);
+         v(1) = sqrt(1. / 3.);
          break;
-      }
       case 3:
-      {
-         // Clockwise twisting rotation in 2D around the origin
-         const double w = M_PI/2;
-         double d = max((X(0)+1.)*(1.-X(0)),0.) * max((X(1)+1.)*(1.-X(1)),0.);
-         d = d*d;
-         switch (dim)
-         {
-            case 1: v(0) = 1.0; break;
-            case 2: v(0) = d*w*X(1); v(1) = -d*w*X(0); break;
-            case 3: v(0) = d*w*X(1); v(1) = -d*w*X(0); v(2) = 0.0; break;
-         }
+         v(0) = sqrt(3. / 6.);
+         v(1) = sqrt(2. / 6.);
+         v(2) = sqrt(1. / 6.);
          break;
       }
+      break;
+   }
+   case 1:
+   case 2:
+   {
+      // Clockwise rotation in 2D around the origin
+      const double w = M_PI / 2;
+      switch (dim)
+      {
+      case 1:
+         v(0) = 1.0;
+         break;
+      case 2:
+         v(0) = w * X(1);
+         v(1) = -w * X(0);
+         break;
+      case 3:
+         v(0) = w * X(1);
+         v(1) = -w * X(0);
+         v(2) = 0.0;
+         break;
+      }
+      break;
+   }
+   case 3:
+   {
+      // Clockwise twisting rotation in 2D around the origin
+      const double w = M_PI / 2;
+      double d = max((X(0) + 1.) * (1. - X(0)), 0.) * max((X(1) + 1.) * (1. - X(1)), 0.);
+      d = d * d;
+      switch (dim)
+      {
+      case 1:
+         v(0) = 1.0;
+         break;
+      case 2:
+         v(0) = d * w * X(1);
+         v(1) = -d * w * X(0);
+         break;
+      case 3:
+         v(0) = d * w * X(1);
+         v(1) = -d * w * X(0);
+         v(2) = 0.0;
+         break;
+      }
+      break;
+   }
    }
 }
 
@@ -565,40 +614,41 @@ double u0_function(const Vector &x)
 
    switch (problem)
    {
-      case 0:
+   case 0:
+   case 1:
+   {
+      switch (dim)
+      {
       case 1:
-      {
-         switch (dim)
-         {
-            case 1:
-               return exp(-40.*pow(X(0)-0.5,2));
-            case 2:
-            case 3:
-            {
-               double rx = 0.45, ry = 0.25, cx = 0., cy = -0.2, w = 10.;
-               if (dim == 3)
-               {
-                  const double s = (1. + 0.25*cos(2*M_PI*X(2)));
-                  rx *= s;
-                  ry *= s;
-               }
-               return ( erfc(w*(X(0)-cx-rx))*erfc(-w*(X(0)-cx+rx)) *
-                        erfc(w*(X(1)-cy-ry))*erfc(-w*(X(1)-cy+ry)) )/16;
-            }
-         }
-      }
+         return exp(-40. * pow(X(0) - 0.5, 2));
       case 2:
-      {
-         double x_ = X(0), y_ = X(1), rho, phi;
-         rho = hypot(x_, y_);
-         phi = atan2(y_, x_);
-         return pow(sin(M_PI*rho),2)*sin(3*phi);
-      }
       case 3:
       {
-         const double f = M_PI;
-         return sin(f*X(0))*sin(f*X(1));
+         double rx = 0.45, ry = 0.25, cx = 0., cy = -0.2, w = 10.;
+         if (dim == 3)
+         {
+            const double s = (1. + 0.25 * cos(2 * M_PI * X(2)));
+            rx *= s;
+            ry *= s;
+         }
+         return (erfc(w * (X(0) - cx - rx)) * erfc(-w * (X(0) - cx + rx)) *
+                 erfc(w * (X(1) - cy - ry)) * erfc(-w * (X(1) - cy + ry))) /
+                16;
       }
+      }
+   }
+   case 2:
+   {
+      double x_ = X(0), y_ = X(1), rho, phi;
+      rho = hypot(x_, y_);
+      phi = atan2(y_, x_);
+      return pow(sin(M_PI * rho), 2) * sin(3 * phi);
+   }
+   case 3:
+   {
+      const double f = M_PI;
+      return sin(f * X(0)) * sin(f * X(1));
+   }
    }
    return 0.0;
 }
@@ -608,10 +658,11 @@ double inflow_function(const Vector &x)
 {
    switch (problem)
    {
-      case 0:
-      case 1:
-      case 2:
-      case 3: return 0.0;
+   case 0:
+   case 1:
+   case 2:
+   case 3:
+      return 0.0;
    }
    return 0.0;
 }

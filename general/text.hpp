@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-12-02 09:22:16
+ * @LastEditTime: 2020-12-02 10:42:48
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \mfem\general\text.hpp
+ */
 // Copyright (c) 2010-2020, Lawrence Livermore National Security, LLC. Produced
 // at the Lawrence Livermore National Laboratory. All Rights reserved. See files
 // LICENSE and NOTICE for details. LLNL-CODE-806117.
@@ -28,11 +36,11 @@ namespace mfem
 using std::to_string;
 
 /// Check if the stream starts with @a comment_char. If so skip it.
-inline void skip_comment_lines(std::istream &is, const char comment_char)
+inline void skip_comment_lines(std::istream &is, const char comment_char)//忽略注释内容
 {
    while (1)
    {
-      is >> std::ws;
+      is >> std::ws;//忽略前导空白符
       if (is.peek() != comment_char)
       {
          break;
