@@ -149,7 +149,7 @@ int main(int argc, char *argv[])
    bool ea = false;
    bool fa = false;
    const char *device_config = "cpu";
-   int ode_solver_type = 4;
+   int ode_solver_type = 4;//rk4格式
    double t_final = 10.0;
    double dt = 0.01;
    bool visualization = true;
@@ -282,7 +282,7 @@ int main(int argc, char *argv[])
 
    // 5. Define the discontinuous DG finite element space of the given
    //    polynomial order on the refined mesh.
-   DG_FECollection fec(order, dim, BasisType::GaussLobatto);
+   DG_FECollection fec(order, dim, BasisType::GaussLobatto);//GaussLobatoo是积分的一种形式 http://wuli.wiki/online/GLquad.html
    FiniteElementSpace fes(&mesh, &fec);
 
    cout << "Number of unknowns: " << fes.GetVSize() << endl;
