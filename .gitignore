@@ -7,6 +7,7 @@
 # ------------------------------------------------------------------------------
 
 #hole directory 
+.vscode/
 build/
 # Object and library files
 *.o
