@@ -6,6 +6,8 @@
 # Also ignore OS-specific files like .DS_Store on Mac
 # ------------------------------------------------------------------------------
 
+#hole directory 
+build/
 # Object and library files
 *.o
 /libmfem.*
