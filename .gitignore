@@ -5,6 +5,15 @@
 #
 # Also ignore OS-specific files like .DS_Store on Mac
 # ------------------------------------------------------------------------------
+#new one ignore
+*
+!examples/
+!fem/
+!general/
+!linalg/
+!mesh/
+!miniapps/
+!tests/
 
 #hole directory 
 .gitignore
