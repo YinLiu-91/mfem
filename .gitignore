@@ -1,11 +1,11 @@
 #new one ignore
 *
 !.gitignore
-!/examples/*
-!/fem/*
-!/general/*
-!/linalg/*
-!/mesh/*
-!/miniapps/*
-!/tests/*
+!examples/
+!fem/
+!general/
+!linalg/
+!mesh/
+!miniapps/
+!tests/
 !README
