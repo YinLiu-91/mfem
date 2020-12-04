@@ -1,5 +1,6 @@
 #new one ignore
 *
+!.gitignore
 !examples/
 !fem/
 !general/
