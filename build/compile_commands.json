@@ -1,0 +1,987 @@
+[
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\array.cpp.obj -c E:\\project\\fem\\mfem\\general\\array.cpp",
+  "file": "E:/project/fem/mfem/general/array.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\binaryio.cpp.obj -c E:\\project\\fem\\mfem\\general\\binaryio.cpp",
+  "file": "E:/project/fem/mfem/general/binaryio.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\cuda.cpp.obj -c E:\\project\\fem\\mfem\\general\\cuda.cpp",
+  "file": "E:/project/fem/mfem/general/cuda.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\device.cpp.obj -c E:\\project\\fem\\mfem\\general\\device.cpp",
+  "file": "E:/project/fem/mfem/general/device.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\error.cpp.obj -c E:\\project\\fem\\mfem\\general\\error.cpp",
+  "file": "E:/project/fem/mfem/general/error.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\gecko.cpp.obj -c E:\\project\\fem\\mfem\\general\\gecko.cpp",
+  "file": "E:/project/fem/mfem/general/gecko.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\globals.cpp.obj -c E:\\project\\fem\\mfem\\general\\globals.cpp",
+  "file": "E:/project/fem/mfem/general/globals.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\isockstream.cpp.obj -c E:\\project\\fem\\mfem\\general\\isockstream.cpp",
+  "file": "E:/project/fem/mfem/general/isockstream.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\mem_manager.cpp.obj -c E:\\project\\fem\\mfem\\general\\mem_manager.cpp",
+  "file": "E:/project/fem/mfem/general/mem_manager.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\occa.cpp.obj -c E:\\project\\fem\\mfem\\general\\occa.cpp",
+  "file": "E:/project/fem/mfem/general/occa.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\optparser.cpp.obj -c E:\\project\\fem\\mfem\\general\\optparser.cpp",
+  "file": "E:/project/fem/mfem/general/optparser.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\osockstream.cpp.obj -c E:\\project\\fem\\mfem\\general\\osockstream.cpp",
+  "file": "E:/project/fem/mfem/general/osockstream.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\sets.cpp.obj -c E:\\project\\fem\\mfem\\general\\sets.cpp",
+  "file": "E:/project/fem/mfem/general/sets.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\socketstream.cpp.obj -c E:\\project\\fem\\mfem\\general\\socketstream.cpp",
+  "file": "E:/project/fem/mfem/general/socketstream.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\stable3d.cpp.obj -c E:\\project\\fem\\mfem\\general\\stable3d.cpp",
+  "file": "E:/project/fem/mfem/general/stable3d.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\table.cpp.obj -c E:\\project\\fem\\mfem\\general\\table.cpp",
+  "file": "E:/project/fem/mfem/general/table.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\tic_toc.cpp.obj -c E:\\project\\fem\\mfem\\general\\tic_toc.cpp",
+  "file": "E:/project/fem/mfem/general/tic_toc.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\general\\version.cpp.obj -c E:\\project\\fem\\mfem\\general\\version.cpp",
+  "file": "E:/project/fem/mfem/general/version.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\blockmatrix.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\blockmatrix.cpp",
+  "file": "E:/project/fem/mfem/linalg/blockmatrix.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\blockoperator.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\blockoperator.cpp",
+  "file": "E:/project/fem/mfem/linalg/blockoperator.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\blockvector.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\blockvector.cpp",
+  "file": "E:/project/fem/mfem/linalg/blockvector.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\complex_operator.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\complex_operator.cpp",
+  "file": "E:/project/fem/mfem/linalg/complex_operator.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\densemat.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\densemat.cpp",
+  "file": "E:/project/fem/mfem/linalg/densemat.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\handle.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\handle.cpp",
+  "file": "E:/project/fem/mfem/linalg/handle.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\matrix.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\matrix.cpp",
+  "file": "E:/project/fem/mfem/linalg/matrix.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\ode.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\ode.cpp",
+  "file": "E:/project/fem/mfem/linalg/ode.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\operator.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\operator.cpp",
+  "file": "E:/project/fem/mfem/linalg/operator.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\solvers.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\solvers.cpp",
+  "file": "E:/project/fem/mfem/linalg/solvers.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\sparsemat.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\sparsemat.cpp",
+  "file": "E:/project/fem/mfem/linalg/sparsemat.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\sparsesmoothers.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\sparsesmoothers.cpp",
+  "file": "E:/project/fem/mfem/linalg/sparsesmoothers.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\linalg\\vector.cpp.obj -c E:\\project\\fem\\mfem\\linalg\\vector.cpp",
+  "file": "E:/project/fem/mfem/linalg/vector.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\element.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\element.cpp",
+  "file": "E:/project/fem/mfem/mesh/element.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\gmsh.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\gmsh.cpp",
+  "file": "E:/project/fem/mfem/mesh/gmsh.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\hexahedron.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\hexahedron.cpp",
+  "file": "E:/project/fem/mfem/mesh/hexahedron.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\mesh.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\mesh.cpp",
+  "file": "E:/project/fem/mfem/mesh/mesh.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\mesh_operators.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\mesh_operators.cpp",
+  "file": "E:/project/fem/mfem/mesh/mesh_operators.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\mesh_readers.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\mesh_readers.cpp",
+  "file": "E:/project/fem/mfem/mesh/mesh_readers.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\ncmesh.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\ncmesh.cpp",
+  "file": "E:/project/fem/mfem/mesh/ncmesh.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\nurbs.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\nurbs.cpp",
+  "file": "E:/project/fem/mfem/mesh/nurbs.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\point.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\point.cpp",
+  "file": "E:/project/fem/mfem/mesh/point.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\quadrilateral.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\quadrilateral.cpp",
+  "file": "E:/project/fem/mfem/mesh/quadrilateral.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\segment.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\segment.cpp",
+  "file": "E:/project/fem/mfem/mesh/segment.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\tetrahedron.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\tetrahedron.cpp",
+  "file": "E:/project/fem/mfem/mesh/tetrahedron.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\triangle.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\triangle.cpp",
+  "file": "E:/project/fem/mfem/mesh/triangle.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\vertex.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\vertex.cpp",
+  "file": "E:/project/fem/mfem/mesh/vertex.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\vtk.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\vtk.cpp",
+  "file": "E:/project/fem/mfem/mesh/vtk.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\mesh\\wedge.cpp.obj -c E:\\project\\fem\\mfem\\mesh\\wedge.cpp",
+  "file": "E:/project/fem/mfem/mesh/wedge.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilinearform.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilinearform.cpp",
+  "file": "E:/project/fem/mfem/fem/bilinearform.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilinearform_ext.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilinearform_ext.cpp",
+  "file": "E:/project/fem/mfem/fem/bilinearform_ext.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_convection_pa.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_convection_pa.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_convection_pa.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_convection_ea.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_convection_ea.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_convection_ea.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_dgtrace_pa.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_dgtrace_pa.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_dgtrace_pa.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_dgtrace_ea.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_dgtrace_ea.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_dgtrace_ea.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_diffusion_mf.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_diffusion_mf.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_diffusion_mf.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_diffusion_pa.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_diffusion_pa.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_diffusion_pa.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_diffusion_ea.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_diffusion_ea.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_diffusion_ea.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_divergence.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_divergence.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_divergence.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_hcurl.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_hcurl.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_hcurl.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_hdiv.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_hdiv.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_hdiv.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_vectorfe.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_vectorfe.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_vectorfe.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_gradient.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_gradient.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_gradient.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_mass_mf.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_mass_mf.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_mass_mf.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_mass_pa.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_mass_pa.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_mass_pa.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_mass_ea.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_mass_ea.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_mass_ea.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_transpose_ea.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_transpose_ea.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_transpose_ea.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_vecdiffusion.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_vecdiffusion.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_vecdiffusion.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_vecdiffusion_mf.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_vecdiffusion_mf.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_vecdiffusion_mf.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_vecmass.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_vecmass.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_vecmass.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\bilininteg_vecmass_mf.cpp.obj -c E:\\project\\fem\\mfem\\fem\\bilininteg_vecmass_mf.cpp",
+  "file": "E:/project/fem/mfem/fem/bilininteg_vecmass_mf.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\coefficient.cpp.obj -c E:\\project\\fem\\mfem\\fem\\coefficient.cpp",
+  "file": "E:/project/fem/mfem/fem/coefficient.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\complex_fem.cpp.obj -c E:\\project\\fem\\mfem\\fem\\complex_fem.cpp",
+  "file": "E:/project/fem/mfem/fem/complex_fem.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\convergence.cpp.obj -c E:\\project\\fem\\mfem\\fem\\convergence.cpp",
+  "file": "E:/project/fem/mfem/fem/convergence.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\datacollection.cpp.obj -c E:\\project\\fem\\mfem\\fem\\datacollection.cpp",
+  "file": "E:/project/fem/mfem/fem/datacollection.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\eltrans.cpp.obj -c E:\\project\\fem\\mfem\\fem\\eltrans.cpp",
+  "file": "E:/project/fem/mfem/fem/eltrans.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\estimators.cpp.obj -c E:\\project\\fem\\mfem\\fem\\estimators.cpp",
+  "file": "E:/project/fem/mfem/fem/estimators.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\fe.cpp.obj -c E:\\project\\fem\\mfem\\fem\\fe.cpp",
+  "file": "E:/project/fem/mfem/fem/fe.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\fe_coll.cpp.obj -c E:\\project\\fem\\mfem\\fem\\fe_coll.cpp",
+  "file": "E:/project/fem/mfem/fem/fe_coll.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\fespace.cpp.obj -c E:\\project\\fem\\mfem\\fem\\fespace.cpp",
+  "file": "E:/project/fem/mfem/fem/fespace.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\geom.cpp.obj -c E:\\project\\fem\\mfem\\fem\\geom.cpp",
+  "file": "E:/project/fem/mfem/fem/geom.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\gridfunc.cpp.obj -c E:\\project\\fem\\mfem\\fem\\gridfunc.cpp",
+  "file": "E:/project/fem/mfem/fem/gridfunc.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\hybridization.cpp.obj -c E:\\project\\fem\\mfem\\fem\\hybridization.cpp",
+  "file": "E:/project/fem/mfem/fem/hybridization.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\intrules.cpp.obj -c E:\\project\\fem\\mfem\\fem\\intrules.cpp",
+  "file": "E:/project/fem/mfem/fem/intrules.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\libceed\\ceed.cpp.obj -c E:\\project\\fem\\mfem\\fem\\libceed\\ceed.cpp",
+  "file": "E:/project/fem/mfem/fem/libceed/ceed.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\libceed\\diffusion.cpp.obj -c E:\\project\\fem\\mfem\\fem\\libceed\\diffusion.cpp",
+  "file": "E:/project/fem/mfem/fem/libceed/diffusion.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\libceed\\mass.cpp.obj -c E:\\project\\fem\\mfem\\fem\\libceed\\mass.cpp",
+  "file": "E:/project/fem/mfem/fem/libceed/mass.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\linearform.cpp.obj -c E:\\project\\fem\\mfem\\fem\\linearform.cpp",
+  "file": "E:/project/fem/mfem/fem/linearform.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\lininteg.cpp.obj -c E:\\project\\fem\\mfem\\fem\\lininteg.cpp",
+  "file": "E:/project/fem/mfem/fem/lininteg.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\multigrid.cpp.obj -c E:\\project\\fem\\mfem\\fem\\multigrid.cpp",
+  "file": "E:/project/fem/mfem/fem/multigrid.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\nonlinearform.cpp.obj -c E:\\project\\fem\\mfem\\fem\\nonlinearform.cpp",
+  "file": "E:/project/fem/mfem/fem/nonlinearform.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\nonlinearform_ext.cpp.obj -c E:\\project\\fem\\mfem\\fem\\nonlinearform_ext.cpp",
+  "file": "E:/project/fem/mfem/fem/nonlinearform_ext.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\nonlininteg.cpp.obj -c E:\\project\\fem\\mfem\\fem\\nonlininteg.cpp",
+  "file": "E:/project/fem/mfem/fem/nonlininteg.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\fespacehierarchy.cpp.obj -c E:\\project\\fem\\mfem\\fem\\fespacehierarchy.cpp",
+  "file": "E:/project/fem/mfem/fem/fespacehierarchy.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\nonlininteg_vectorconvection.cpp.obj -c E:\\project\\fem\\mfem\\fem\\nonlininteg_vectorconvection.cpp",
+  "file": "E:/project/fem/mfem/fem/nonlininteg_vectorconvection.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\quadinterpolator.cpp.obj -c E:\\project\\fem\\mfem\\fem\\quadinterpolator.cpp",
+  "file": "E:/project/fem/mfem/fem/quadinterpolator.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\quadinterpolator_face.cpp.obj -c E:\\project\\fem\\mfem\\fem\\quadinterpolator_face.cpp",
+  "file": "E:/project/fem/mfem/fem/quadinterpolator_face.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\restriction.cpp.obj -c E:\\project\\fem\\mfem\\fem\\restriction.cpp",
+  "file": "E:/project/fem/mfem/fem/restriction.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\staticcond.cpp.obj -c E:\\project\\fem\\mfem\\fem\\staticcond.cpp",
+  "file": "E:/project/fem/mfem/fem/staticcond.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\tmop.cpp.obj -c E:\\project\\fem\\mfem\\fem\\tmop.cpp",
+  "file": "E:/project/fem/mfem/fem/tmop.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\tmop_tools.cpp.obj -c E:\\project\\fem\\mfem\\fem\\tmop_tools.cpp",
+  "file": "E:/project/fem/mfem/fem/tmop_tools.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\gslib.cpp.obj -c E:\\project\\fem\\mfem\\fem\\gslib.cpp",
+  "file": "E:/project/fem/mfem/fem/gslib.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_CONFIG_FILE=\\\"E:/project/fem/mfem/build/config/_config.hpp\\\"  -g -std=c++11 -o CMakeFiles\\mfem.dir\\fem\\transfer.cpp.obj -c E:\\project\\fem\\mfem\\fem\\transfer.cpp",
+  "file": "E:/project/fem/mfem/fem/transfer.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_SEDOV_DEVICE=\\\"cpu\\\" -DMFEM_SEDOV_TESTS=1 @CMakeFiles/sedov_tests_cpu.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\sedov_tests_cpu.dir\\unit_test_main.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\unit_test_main.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/unit_test_main.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_SEDOV_DEVICE=\\\"cpu\\\" -DMFEM_SEDOV_TESTS=1 @CMakeFiles/sedov_tests_cpu.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\sedov_tests_cpu.dir\\miniapps\\test_sedov.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\miniapps\\test_sedov.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/miniapps/test_sedov.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\unit_test_main.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\unit_test_main.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/unit_test_main.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\general\\test_mem.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\general\\test_mem.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/general/test_mem.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\general\\test_text.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\general\\test_text.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/general/test_text.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\general\\test_zlib.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\general\\test_zlib.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/general/test_zlib.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_complex_operator.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_complex_operator.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_complex_operator.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_hypre_ilu.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_hypre_ilu.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_hypre_ilu.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_ilu.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_ilu.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_ilu.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_matrix_block.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_matrix_block.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_matrix_block.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_matrix_dense.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_matrix_dense.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_matrix_dense.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_matrix_hypre.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_matrix_hypre.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_matrix_hypre.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_matrix_rectangular.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_matrix_rectangular.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_matrix_rectangular.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_matrix_sparse.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_matrix_sparse.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_matrix_sparse.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_matrix_square.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_matrix_square.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_matrix_square.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_ode.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_ode.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_ode.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_ode2.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_ode2.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_ode2.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_operator.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_operator.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_operator.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_cg_indefinite.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_cg_indefinite.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_cg_indefinite.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\linalg\\test_vector.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\linalg\\test_vector.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/linalg/test_vector.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\mesh\\test_mesh.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\mesh\\test_mesh.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/mesh/test_mesh.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\mesh\\test_ncmesh.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\mesh\\test_ncmesh.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/mesh/test_ncmesh.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_1d_bilininteg.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_1d_bilininteg.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_1d_bilininteg.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_2d_bilininteg.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_2d_bilininteg.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_2d_bilininteg.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_3d_bilininteg.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_3d_bilininteg.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_3d_bilininteg.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_assemblediagonalpa.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_assemblediagonalpa.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_assemblediagonalpa.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_calcshape.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_calcshape.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_calcshape.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_datacollection.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_datacollection.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_datacollection.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_face_permutation.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_face_permutation.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_face_permutation.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_fe.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_fe.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_fe.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_intrules.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_intrules.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_intrules.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_intruletypes.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_intruletypes.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_intruletypes.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_inversetransform.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_inversetransform.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_inversetransform.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_lin_interp.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_lin_interp.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_lin_interp.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_linear_fes.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_linear_fes.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_linear_fes.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_operatorjacobismoother.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_operatorjacobismoother.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_operatorjacobismoother.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_pa_coeff.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_pa_coeff.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_pa_coeff.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_pa_kernels.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_pa_kernels.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_pa_kernels.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_quadf_coef.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_quadf_coef.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_quadf_coef.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_quadraturefunc.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_quadraturefunc.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_quadraturefunc.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\fem\\test_blocknonlinearform.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\fem\\test_blocknonlinearform.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/fem/test_blocknonlinearform.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/unit_tests.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\unit_tests.dir\\miniapps\\test_sedov.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\miniapps\\test_sedov.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/miniapps/test_sedov.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_SEDOV_DEVICE=\\\"debug\\\" -DMFEM_SEDOV_TESTS=1 @CMakeFiles/sedov_tests_debug.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\sedov_tests_debug.dir\\unit_test_main.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\unit_test_main.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/unit_test_main.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/tests/unit",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE -DMFEM_SEDOV_DEVICE=\\\"debug\\\" -DMFEM_SEDOV_TESTS=1 @CMakeFiles/sedov_tests_debug.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\sedov_tests_debug.dir\\miniapps\\test_sedov.cpp.obj -c E:\\project\\fem\\mfem\\tests\\unit\\miniapps\\test_sedov.cpp",
+  "file": "E:/project/fem/mfem/tests/unit/miniapps/test_sedov.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex27.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex27.dir\\ex27.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex27.cpp",
+  "file": "E:/project/fem/mfem/examples/ex27.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex1.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex1.dir\\ex1.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex1.cpp",
+  "file": "E:/project/fem/mfem/examples/ex1.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex24.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex24.dir\\ex24.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex24.cpp",
+  "file": "E:/project/fem/mfem/examples/ex24.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex2.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex2.dir\\ex2.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex2.cpp",
+  "file": "E:/project/fem/mfem/examples/ex2.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex25.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex25.dir\\ex25.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex25.cpp",
+  "file": "E:/project/fem/mfem/examples/ex25.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex3.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex3.dir\\ex3.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex3.cpp",
+  "file": "E:/project/fem/mfem/examples/ex3.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex22.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex22.dir\\ex22.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex22.cpp",
+  "file": "E:/project/fem/mfem/examples/ex22.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex4.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex4.dir\\ex4.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex4.cpp",
+  "file": "E:/project/fem/mfem/examples/ex4.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex23.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex23.dir\\ex23.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex23.cpp",
+  "file": "E:/project/fem/mfem/examples/ex23.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex5.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex5.dir\\ex5.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex5.cpp",
+  "file": "E:/project/fem/mfem/examples/ex5.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex20.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex20.dir\\ex20.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex20.cpp",
+  "file": "E:/project/fem/mfem/examples/ex20.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex6.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex6.dir\\ex6.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex6.cpp",
+  "file": "E:/project/fem/mfem/examples/ex6.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex21.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex21.dir\\ex21.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex21.cpp",
+  "file": "E:/project/fem/mfem/examples/ex21.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex7.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex7.dir\\ex7.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex7.cpp",
+  "file": "E:/project/fem/mfem/examples/ex7.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex8.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex8.dir\\ex8.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex8.cpp",
+  "file": "E:/project/fem/mfem/examples/ex8.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex9.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex9.dir\\ex9.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex9.cpp",
+  "file": "E:/project/fem/mfem/examples/ex9.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex10.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex10.dir\\ex10.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex10.cpp",
+  "file": "E:/project/fem/mfem/examples/ex10.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex14.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex14.dir\\ex14.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex14.cpp",
+  "file": "E:/project/fem/mfem/examples/ex14.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex15.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex15.dir\\ex15.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex15.cpp",
+  "file": "E:/project/fem/mfem/examples/ex15.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex16.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex16.dir\\ex16.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex16.cpp",
+  "file": "E:/project/fem/mfem/examples/ex16.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex17.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex17.dir\\ex17.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex17.cpp",
+  "file": "E:/project/fem/mfem/examples/ex17.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex18.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex18.dir\\ex18.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex18.cpp",
+  "file": "E:/project/fem/mfem/examples/ex18.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex19.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex19.dir\\ex19.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex19.cpp",
+  "file": "E:/project/fem/mfem/examples/ex19.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/examples",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/ex26.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\ex26.dir\\ex26.cpp.obj -c E:\\project\\fem\\mfem\\examples\\ex26.cpp",
+  "file": "E:/project/fem/mfem/examples/ex26.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/common",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/mfem-common.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\mfem-common.dir\\mesh_extras.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\common\\mesh_extras.cpp",
+  "file": "E:/project/fem/mfem/miniapps/common/mesh_extras.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/common",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/mfem-common.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\mfem-common.dir\\fem_extras.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\common\\fem_extras.cpp",
+  "file": "E:/project/fem/mfem/miniapps/common/fem_extras.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/meshing",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/klein-bottle.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\klein-bottle.dir\\klein-bottle.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\meshing\\klein-bottle.cpp",
+  "file": "E:/project/fem/mfem/miniapps/meshing/klein-bottle.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/meshing",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/shaper.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\shaper.dir\\shaper.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\meshing\\shaper.cpp",
+  "file": "E:/project/fem/mfem/miniapps/meshing/shaper.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/meshing",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/mesh-explorer.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\mesh-explorer.dir\\mesh-explorer.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\meshing\\mesh-explorer.cpp",
+  "file": "E:/project/fem/mfem/miniapps/meshing/mesh-explorer.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/meshing",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/mobius-strip.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\mobius-strip.dir\\mobius-strip.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\meshing\\mobius-strip.cpp",
+  "file": "E:/project/fem/mfem/miniapps/meshing/mobius-strip.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/meshing",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/extruder.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\extruder.dir\\extruder.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\meshing\\extruder.cpp",
+  "file": "E:/project/fem/mfem/miniapps/meshing/extruder.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/meshing",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/toroid.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\toroid.dir\\toroid.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\meshing\\toroid.cpp",
+  "file": "E:/project/fem/mfem/miniapps/meshing/toroid.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/meshing",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/minimal-surface.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\minimal-surface.dir\\minimal-surface.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\meshing\\minimal-surface.cpp",
+  "file": "E:/project/fem/mfem/miniapps/meshing/minimal-surface.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/meshing",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/mesh-optimizer.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\mesh-optimizer.dir\\mesh-optimizer.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\meshing\\mesh-optimizer.cpp",
+  "file": "E:/project/fem/mfem/miniapps/meshing/mesh-optimizer.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/meshing",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/trimmer.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\trimmer.dir\\trimmer.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\meshing\\trimmer.cpp",
+  "file": "E:/project/fem/mfem/miniapps/meshing/trimmer.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/meshing",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/twist.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\twist.dir\\twist.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\meshing\\twist.cpp",
+  "file": "E:/project/fem/mfem/miniapps/meshing/twist.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/meshing",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/polar-nc.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\polar-nc.dir\\polar-nc.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\meshing\\polar-nc.cpp",
+  "file": "E:/project/fem/mfem/miniapps/meshing/polar-nc.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/performance",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/performance_ex1.dir/includes_CXX.rsp -g -march=native -Wall -pedantic --param max-completely-peel-times=3 -std=c++11 -o CMakeFiles\\performance_ex1.dir\\ex1.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\performance\\ex1.cpp",
+  "file": "E:/project/fem/mfem/miniapps/performance/ex1.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/tools",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/convert-dc.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\convert-dc.dir\\convert-dc.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\tools\\convert-dc.cpp",
+  "file": "E:/project/fem/mfem/miniapps/tools/convert-dc.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/tools",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/lor-transfer.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\lor-transfer.dir\\lor-transfer.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\tools\\lor-transfer.cpp",
+  "file": "E:/project/fem/mfem/miniapps/tools/lor-transfer.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/tools",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/display-basis.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\display-basis.dir\\display-basis.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\tools\\display-basis.cpp",
+  "file": "E:/project/fem/mfem/miniapps/tools/display-basis.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/tools",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/get-values.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\get-values.dir\\get-values.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\tools\\get-values.cpp",
+  "file": "E:/project/fem/mfem/miniapps/tools/get-values.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/tools",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/load-dc.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\load-dc.dir\\load-dc.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\tools\\load-dc.cpp",
+  "file": "E:/project/fem/mfem/miniapps/tools/load-dc.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/toys",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/toy_automata.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\toy_automata.dir\\automata.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\toys\\automata.cpp",
+  "file": "E:/project/fem/mfem/miniapps/toys/automata.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/toys",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/toy_life.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\toy_life.dir\\life.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\toys\\life.cpp",
+  "file": "E:/project/fem/mfem/miniapps/toys/life.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/toys",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/toy_rubik.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\toy_rubik.dir\\rubik.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\toys\\rubik.cpp",
+  "file": "E:/project/fem/mfem/miniapps/toys/rubik.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/toys",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/toy_mandel.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\toy_mandel.dir\\mandel.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\toys\\mandel.cpp",
+  "file": "E:/project/fem/mfem/miniapps/toys/mandel.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/toys",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/toy_snake.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\toy_snake.dir\\snake.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\toys\\snake.cpp",
+  "file": "E:/project/fem/mfem/miniapps/toys/snake.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/toys",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/toy_mondrian.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\toy_mondrian.dir\\mondrian.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\toys\\mondrian.cpp",
+  "file": "E:/project/fem/mfem/miniapps/toys/mondrian.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/toys",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/toy_lissajous.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\toy_lissajous.dir\\lissajous.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\toys\\lissajous.cpp",
+  "file": "E:/project/fem/mfem/miniapps/toys/lissajous.cpp"
+},
+{
+  "directory": "E:/project/fem/mfem/build/miniapps/nurbs",
+  "command": "C:\\PROGRA~1\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/nurbs_ex1.dir/includes_CXX.rsp -g -std=c++11 -o CMakeFiles\\nurbs_ex1.dir\\nurbs_ex1.cpp.obj -c E:\\project\\fem\\mfem\\miniapps\\nurbs\\nurbs_ex1.cpp",
+  "file": "E:/project/fem/mfem/miniapps/nurbs/nurbs_ex1.cpp"
+}
+]

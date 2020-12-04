@@ -1,0 +1,240 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"path" : "config/defaults.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.18.2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"path" : "config/XSDKDefaults.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.18.2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/Internal/CMakeCheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/Platform/Windows-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.18.2/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "config/cmake/modules/MfemCmakeUtilities.cmake"
+		},
+		{
+			"path" : "config/cmake/config.hpp.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "config/cmake/MFEMConfig.cmake.in"
+		},
+		{
+			"path" : "config/cmake/MFEMConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "config/config.mk.in"
+		},
+		{
+			"path" : "config/test.mk"
+		},
+		{
+			"path" : "config/config.mk.in"
+		},
+		{
+			"path" : "general/CMakeLists.txt"
+		},
+		{
+			"path" : "linalg/CMakeLists.txt"
+		},
+		{
+			"path" : "mesh/CMakeLists.txt"
+		},
+		{
+			"path" : "fem/CMakeLists.txt"
+		},
+		{
+			"path" : "config/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/unit/CMakeLists.txt"
+		},
+		{
+			"path" : "examples/CMakeLists.txt"
+		},
+		{
+			"path" : "miniapps/CMakeLists.txt"
+		},
+		{
+			"path" : "miniapps/common/CMakeLists.txt"
+		},
+		{
+			"path" : "miniapps/electromagnetics/CMakeLists.txt"
+		},
+		{
+			"path" : "miniapps/navier/CMakeLists.txt"
+		},
+		{
+			"path" : "miniapps/meshing/CMakeLists.txt"
+		},
+		{
+			"path" : "miniapps/performance/CMakeLists.txt"
+		},
+		{
+			"path" : "miniapps/tools/CMakeLists.txt"
+		},
+		{
+			"path" : "miniapps/toys/CMakeLists.txt"
+		},
+		{
+			"path" : "miniapps/nurbs/CMakeLists.txt"
+		},
+		{
+			"path" : "miniapps/gslib/CMakeLists.txt"
+		},
+		{
+			"path" : "doc/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/FindDoxygen.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/cmake-3.18.2-win64-x64/share/cmake-3.18/Modules/FindPackageMessage.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "E:/project/fem/mfem/build",
+		"source" : "E:/project/fem/mfem"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
