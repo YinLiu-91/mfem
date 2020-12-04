@@ -47,10 +47,9 @@ void Mesh::ReadMFEMMesh(std::istream &input, bool mfem_v11, int &curved)
    input >> NumOfElements;
    elements.SetSize(NumOfElements);
    for (int j = 0; j < NumOfElements; j++)
-   {
+   {  
       elements[j] = ReadElement(input);
    }
-
    skip_comment_lines(input, '#');
    input >> ident; // 'boundary'
 

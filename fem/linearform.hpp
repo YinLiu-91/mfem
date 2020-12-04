@@ -63,7 +63,7 @@ private:
 public:
    /// Creates linear form associated with FE space @a *f.
    /** The pointer @a f is not owned by the newly constructed object. */
-   LinearForm(FiniteElementSpace *f) : Vector(f->GetVSize())
+   LinearForm(FiniteElementSpace *f) : Vector(f->GetVSize())//构造函数使用
    { fes = f; extern_lfs = 0; UseDevice(true); }
 
    /** @brief Create a LinearForm on the FiniteElementSpace @a f, using the

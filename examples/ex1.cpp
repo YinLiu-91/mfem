@@ -161,7 +161,7 @@ int main(int argc, char *argv[])
    //    the FEM linear system, which in this case is (1,phi_i) where phi_i are
    //    the basis functions in the finite element fespace.
    LinearForm b(&fespace);
-   ConstantCoefficient one(1.0);
+   ConstantCoefficient one(1.0);             //设置定常数
    b.AddDomainIntegrator(new DomainLFIntegrator(one));
    b.Assemble();
 

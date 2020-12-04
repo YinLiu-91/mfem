@@ -290,7 +290,7 @@ int main(int argc, char *argv[])
    // 6. Set up and assemble the bilinear and linear forms corresponding to the
    //    DG discretization. The DGTraceIntegrator involves integrals over mesh
    //    interior faces.
-   VectorFunctionCoefficient velocity(dim, velocity_function);
+   VectorFunctionCoefficient velocity(dim, velocity_function);//
    FunctionCoefficient inflow(inflow_function);
    FunctionCoefficient u0(u0_function);
 
