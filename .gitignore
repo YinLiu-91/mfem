@@ -1,0 +1,27 @@
+#new one ignore
+*
+!*/
+!*.c
+!*.cxx
+!*.cpp
+!*.cpp
+!*.h
+!*.h++
+!*.hh
+!*.hp
+!*.hpp
+!*.hxx
+!*.H
+!*.hpp
+!CMakeLists.txt
+!.gitignore
+#!examples/**/*
+#!examples/*
+##!examples/*
+#!fem/*
+#!general/*
+#!linalg/*
+#!mesh/*
+#!miniapps/*
+#!tests/*
+!README
