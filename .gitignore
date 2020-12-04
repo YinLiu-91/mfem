@@ -37,6 +37,7 @@
 
 build/
 ParaView/
+tes1111.txt
 # Object and library files
 *.o
 /libmfem.*
