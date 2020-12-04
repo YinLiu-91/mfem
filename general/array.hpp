@@ -45,7 +45,7 @@ class Array
 {
 protected:
    /// Pointer to data
-   Memory<T> data;
+   Memory<T> data;         
    /// Size of the array
    int size;
 

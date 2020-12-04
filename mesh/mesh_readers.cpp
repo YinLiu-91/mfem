@@ -45,10 +45,11 @@ void Mesh::ReadMFEMMesh(std::istream &input, bool mfem_v11, int &curved)
 
    MFEM_VERIFY(ident == "elements", "invalid mesh file");
    input >> NumOfElements;
-   elements.SetSize(NumOfElements);
+   elements.SetSize(NumOfElements);//这里的elments是一个Array，其定义Array<Element *> 
    for (int j = 0; j < NumOfElements; j++)
    {  
-      elements[j] = ReadElement(input);
+      elements[j] = ReadElement(input);//每次返回一个指针，指针指向创建的Triangle的类，
+                     //new位于Element类的NewElement函数内，它根据enum值创建不同的Elements
    }
    skip_comment_lines(input, '#');
    input >> ident; // 'boundary'

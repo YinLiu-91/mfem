@@ -104,6 +104,7 @@ int main(int argc, char *argv[])
    // 3. Read the mesh from the given mesh file. We can handle triangular,
    //    quadrilateral, tetrahedral, hexahedral, surface and volume meshes with
    //    the same code.
+   //Mesh mesh1;
    Mesh mesh(mesh_file, 1, 1);
    int dim = mesh.Dimension();
 
@@ -112,8 +113,7 @@ int main(int argc, char *argv[])
    //    largest number that gives a final mesh with no more than 50,000
    //    elements.
    {
-      int ref_levels =
-         (int)floor(log(50000./mesh.GetNE())/log(2.)/dim);
+      int ref_levels = (int)floor(log(50000. / mesh.GetNE()) / log(2.) / dim);
       for (int l = 0; l < ref_levels; l++)
       {
          mesh.UniformRefinement();
@@ -161,7 +161,7 @@ int main(int argc, char *argv[])
    //    the FEM linear system, which in this case is (1,phi_i) where phi_i are
    //    the basis functions in the finite element fespace.
    LinearForm b(&fespace);
-   ConstantCoefficient one(1.0);             //设置定常数
+   ConstantCoefficient one(1.0); //设置定常数
    b.AddDomainIntegrator(new DomainLFIntegrator(one));
    b.Assemble();
 
@@ -175,14 +175,20 @@ int main(int argc, char *argv[])
    //    corresponding to the Laplacian operator -Delta, by adding the Diffusion
    //    domain integrator.
    BilinearForm a(&fespace);
-   if (pa) { a.SetAssemblyLevel(AssemblyLevel::PARTIAL); }
+   if (pa)
+   {
+      a.SetAssemblyLevel(AssemblyLevel::PARTIAL);
+   }
    a.AddDomainIntegrator(new DiffusionIntegrator(one));
 
    // 10. Assemble the bilinear form and the corresponding linear system,
    //     applying any necessary transformations such as: eliminating boundary
    //     conditions, applying conforming constraints for non-conforming AMR,
    //     static condensation, etc.
-   if (static_cond) { a.EnableStaticCondensation(); }
+   if (static_cond)
+   {
+      a.EnableStaticCondensation();
+   }
    a.Assemble();
 
    OperatorPtr A;
@@ -196,7 +202,7 @@ int main(int argc, char *argv[])
    {
 #ifndef MFEM_USE_SUITESPARSE
       // Use a simple symmetric Gauss-Seidel preconditioner with PCG.
-      GSSmoother M((SparseMatrix&)(*A));
+      GSSmoother M((SparseMatrix &)(*A));
       PCG(*A, M, B, X, 1, 200, 1e-12, 0.0);
 #else
       // If MFEM was compiled with SuiteSparse, use UMFPACK to solve the system.
@@ -235,10 +241,11 @@ int main(int argc, char *argv[])
    if (visualization)
    {
       char vishost[] = "localhost";
-      int  visport   = 19916;
+      int visport = 19916;
       socketstream sol_sock(vishost, visport);
       sol_sock.precision(8);
-      sol_sock << "solution\n" << mesh << x << flush;
+      sol_sock << "solution\n"
+               << mesh << x << flush;
    }
 
    // 15. Free the used memory.

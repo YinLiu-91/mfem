@@ -475,7 +475,7 @@ protected:
 
 public:
 
-   Mesh() { SetEmpty(); }
+   Mesh() { std::cout<<"执行了默认构造函数"<<std::endl;SetEmpty();  }
 
    /** Copy constructor. Performs a deep copy of (almost) all data, so that the
        source mesh can be modified (e.g. deleted, refined) without affecting the

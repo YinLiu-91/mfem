@@ -25,7 +25,7 @@ namespace mfem
 class Mesh;
 
 /// Abstract data type element
-class Element
+class Element //Element是一个抽象类
 {
 protected:
 
@@ -47,7 +47,7 @@ public:
    { attribute = 1; base_geom = bg; }
 
    /// Returns element's type
-   virtual Type GetType() const = 0;
+   virtual Type GetType() const = 0;//纯虚函数
 
    Geometry::Type GetGeometryType() const { return base_geom; }
 
