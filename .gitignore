@@ -34,7 +34,7 @@
 #
 # Also ignore OS-specific files like .DS_Store on Mac
 # ------------------------------------------------------------------------------
-
+!*.yml
 build/
 ParaView/
 tes1111.txt
