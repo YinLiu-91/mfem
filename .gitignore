@@ -24,6 +24,8 @@
 ##!mesh/*
 ##!miniapps/*
 ##!tests/*
+
+
 #!README
 # ------------------------------------------------------------------------------
 # Ignore files that are generated from the repository sources by either building
@@ -33,6 +35,8 @@
 # Also ignore OS-specific files like .DS_Store on Mac
 # ------------------------------------------------------------------------------
 
+build/
+ParaView/
 # Object and library files
 *.o
 /libmfem.*
